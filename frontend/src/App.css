@@ -1,0 +1,10 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+  
+body::after {
+    content: '';
+    display: block;
+    height: 200px;
+}
